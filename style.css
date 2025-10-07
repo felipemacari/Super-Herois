@@ -1,0 +1,109 @@
+/* ======== TEMA FUTURISTA PRETO, CINZA E BRANCO ======== */
+
+body {
+  background: url('fundo_herois.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0,0,0,0.8); /* escurece a imagem para efeito fosco */
+  color: #f0f0f0; /* textos brancos */
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ffffff; /* branco */
+  text-shadow: none; /* sem brilho */
+  margin-top: 30px;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+}
+
+nav {
+  background: rgba(0, 0, 0, 0.7); /* fundo escuro */
+  padding: 15px;
+  border-bottom: 1px solid #888888; /* cinza */
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff; /* branco */
+  margin: 0 20px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #cccccc; /* cinza claro no hover */
+}
+
+table {
+  margin: 40px auto;
+  border-collapse: collapse;
+  width: 80%;
+  background: rgba(0, 0, 0, 0.6); /* fundo da tabela escuro */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th, td {
+  padding: 12px 20px;
+  border-bottom: 1px solid #888888; /* cinza */
+  color: #f0f0f0; /* branco */
+}
+
+th {
+  background: rgba(255, 255, 255, 0.1); /* cinza claro translúcido */
+  color: #ffffff;
+}
+
+tr:hover {
+  background: rgba(255, 255, 255, 0.05); /* efeito hover leve */
+}
+
+form {
+  margin-top: 40px;
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.7); /* fundo escuro */
+  padding: 25px 40px;
+  border-radius: 15px;
+}
+
+input[type="text"],
+input[type="number"] {
+  background: #222222; /* cinza escuro */
+  color: #ffffff; /* branco */
+  border: 1px solid #888888; /* cinza */
+  border-radius: 8px;
+  padding: 10px;
+  width: 250px;
+  margin: 8px 0;
+  outline: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #ffffff;
+}
+
+input[type="submit"] {
+  background: #ffffff; /* branco */
+  color: #000000; /* preto */
+  border: none;
+  padding: 12px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #cccccc; /* cinza claro no hover */
+}
+
+hr {
+  width: 70%;
+  border: 1px solid #888888; /* cinza */
+  margin: 20px auto;
+}
