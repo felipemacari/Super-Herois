@@ -16,7 +16,9 @@
   <a href="editar.php">Editar</a>
   <a href="excluir.php">Excluir</a>
   <a href="top3.php">Top 3 Heróis</a>
+  <a href="buscar.php">Buscar</a>
 </nav>
+
 <hr>
 
 <table>
