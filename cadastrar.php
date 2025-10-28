@@ -11,7 +11,13 @@
 <body>
 <h1> Adicionar Novo Herói</h1>
 <nav>
-  <a href="index.php"> Voltar à Central</a>
+  <a href="index.php">Início</a>
+  <a href="cadastrar.php">Adicionar Herói</a>
+  <a href="editar.php">Editar</a>
+  <a href="excluir.php">Excluir</a>
+  <a href="top3.php">Top 3 Heróis</a>
+  <a href="buscar.php">Buscar</a>
+
 </nav>
 <hr>
 

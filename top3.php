@@ -5,13 +5,21 @@
 <meta charset="UTF-8">
 <title>Top 3 Heróis</title>
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <h1> Top 3 Heróis Mais Fortes</h1>
 <nav>
-  <a href="index.php"> Voltar à Central</a>
+  <a href="index.php">Início</a>
+  <a href="cadastrar.php">Adicionar Herói</a>
+  <a href="editar.php">Editar</a>
+  <a href="excluir.php">Excluir</a>
+  <a href="top3.php">Top 3 Heróis</a>
+  <a href="buscar.php">Buscar</a>
+
 </nav>
 
-<h1> Top 3 Heróis Mais Fortes</h1>
+
 <hr>
 
 <?php

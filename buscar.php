@@ -5,10 +5,11 @@
 <meta charset="UTF-8">
 <title>Buscar Heróis</title>
 <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-<h1>🔍 Buscar Heróis</h1>
+<h1> Buscar Heróis</h1>
 
 <nav>
   <a href="index.php">Início</a>
@@ -17,6 +18,7 @@
   <a href="excluir.php">Excluir</a>
   <a href="top3.php">Top 3 Heróis</a>
   <a href="buscar.php">Buscar</a>
+
 </nav>
 <hr>
 
@@ -29,7 +31,7 @@
 if(isset($_GET['termo'])){
     $termo = $_GET['termo'];
 
-    // Pesquisa por nome ou superpoder
+
     $sql = "SELECT * FROM herois WHERE nome LIKE '%$termo%' OR superpoder LIKE '%$termo%'";
     $result = $conexao->query($sql);
 

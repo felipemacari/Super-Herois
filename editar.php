@@ -10,7 +10,13 @@
 <body>
 <h1> Editar Herói</h1>
 <nav>
-  <a href="index.php"> Voltar à Central</a>
+  <a href="index.php">Início</a>
+  <a href="cadastrar.php">Adicionar Herói</a>
+  <a href="editar.php">Editar</a>
+  <a href="excluir.php">Excluir</a>
+  <a href="top3.php">Top 3 Heróis</a>
+  <a href="buscar.php">Buscar</a>
+
 </nav>
 <hr>
 
@@ -27,7 +33,7 @@
   <label>Novo Nível de Força (1-100):</label><br>
   <input type="number" name="nivel_forca" min="1" max="100"><br><br>
 
-  <input type="submit" value="Atualizar Herói ⚡">
+  <input type="submit" value="Atualizar Herói ">
 </form>
 
 <?php
